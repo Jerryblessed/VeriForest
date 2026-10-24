@@ -1,0 +1,42 @@
+/* Custom Pulse and Scroll Animations */
+@keyframes glow {
+
+    0%,
+    100% {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.02);
+    }
+}
+
+.glow-box {
+    animation: glow 3s ease-in-out infinite;
+}
+
+/* Leaflet Custom Pin styling */
+.leaflet-container {
+    background: #020617 !important;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #10b981;
+}

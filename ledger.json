@@ -1,0 +1,20 @@
+{
+  "plots": {
+    "-0.51,36.77": {
+      "owner": "0x9066a7cca8e743cd33905d105c738a649cebd7c5",
+      "timestamp": 1792860865.503701,
+      "tonnes": 11.3
+    }
+  },
+  "ledger": [
+    {
+      "timestamp": "Just now",
+      "location": "Mahiga ward, Othaya, Nyeri, Kenya",
+      "tonnes": 11.3,
+      "canopy": "87.3%",
+      "tx_hash": "0x4282253470abd460d3e002fac38d6b842a9f1de69b25d6036b8fc0bac080da31",
+      "owner": "0x9066a7cca8e743cd33905d105c738a649cebd7c5",
+      "is_genesis": false
+    }
+  ]
+}
